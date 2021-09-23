@@ -19,7 +19,7 @@ if (KAFKA_BOOTSTRAP_SERVER) {
     }
     : null;
 
-  const ssl = !!sasl;
+  const ssl = true;
 
   config = {
     // clientId: `odapp`,
